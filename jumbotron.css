@@ -3,3 +3,9 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.jumbotron {
+	background-image: url(img/1640-colgan-blur.jpg);
+	background-position: left;
+	color: #fff;
+}
