@@ -1,0 +1,47 @@
+.squashed {
+    width: 100%;
+	margin: auto;
+}
+
+.copyright {
+	float:right;
+	margin-right: 1%;
+}
+
+.blurb-lead {
+	color: #111;
+	font-weight: 500;
+	font-size: 1.2em;
+	font-style: italic;
+	border-left: 5px solid #eee;
+	padding-left: 12px;
+}
+
+.blurb {
+	font-style: italic;
+	font-size: 1.1em;
+	color: #333;
+}
+
+.call-to-action {
+	color: #777;
+}
+
+.backcatalogue {
+	background: #efefef;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+.backcatalogue h2 {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+	.backcatalogue img {
+		width: 40%;
+		margin-right: 14px;
+		float: left;
+	}
+}
