@@ -38,10 +38,42 @@
 	text-align: center;
 }
 
+.backcatalogue .btn {
+	float: right;
+}
+
+@media only screen and (max-width: 991px) {
+	
+	.img-responsive {
+		width: 70%;
+		margin: 24px auto;
+		box-shadow: 2px 2px 14px #ccc;
+	}
+	
+	.backcatalogue img {
+		width: 40px;
+		float: left;
+		margin: 12px;
+	}
+	
+	.backcatalogue p {
+		margin-bottom: 20px;
+	}
+	
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	.backcatalogue img {
+		width: 140px;
+		margin: 12px;
+	}
+	
+}
 @media only screen and (min-width: 1200px) {
 	.backcatalogue img {
 		width: 40%;
 		margin-right: 14px;
 		float: left;
 	}
+	
 }
