@@ -38,7 +38,14 @@
 	text-align: center;
 }
 
+.backcatalogue p {
+	width: 80%;
+}
+
 .backcatalogue .btn {
+	position: absolute;
+	right: 0px;
+	top: 30%;
 	float: right;
 }
 
@@ -56,8 +63,8 @@
 		margin: 12px;
 	}
 	
-	.backcatalogue p {
-		margin-bottom: 20px;
+	.col-lg-4 {
+		margin-bottom: 64px;
 	}
 	
 }
@@ -66,6 +73,16 @@
 	.backcatalogue img {
 		width: 140px;
 		margin: 12px;
+		float: left;
+	}
+
+	.backcatalogue .btn {
+		font-size: 1.4em;
+		right: 10%;
+	}
+	
+	.backcatalogue .col-lg-4 {
+		margin-bottom: 184px;
 	}
 	
 }
@@ -74,6 +91,14 @@
 		width: 40%;
 		margin-right: 14px;
 		float: left;
+	}
+	
+	.backcatalogue p {
+		width: 100%;
+	}
+	
+	.backcatalogue .btn {
+		display: none;
 	}
 	
 }
