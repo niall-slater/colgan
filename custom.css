@@ -17,6 +17,11 @@
 	padding-left: 12px;
 }
 
+.herobooks .btn {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
 .blurb {
 	font-style: italic;
 	font-size: 1.1em;
@@ -43,23 +48,48 @@
 }
 
 .backcatalogue .btn {
-	position: absolute;
-	right: 0px;
-	top: 30%;
-	float: right;
+}
+
+
+.bookrow {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.singlehero {
+  margin: 12px;
+  padding: 12px;
+  display:flex;
+  flex-direction: row;
+  align-items: center
 }
 
 @media only screen and (max-width: 991px) {
 	
+
+  .singlehero h2 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+    .bookrow {
+      display:unset;
+      height: unset;
+      align-items: unset;
+    }
+
 	.img-responsive {
 		width: 70%;
 		margin: 24px auto;
 		box-shadow: 2px 2px 14px #ccc;
 	}
 	
+    .backcatalogue .col-lg-4 {
+      
+    }
+  
 	.backcatalogue img {
-		width: 40px;
-		float: left;
 		margin: 12px;
 	}
 	
@@ -68,6 +98,7 @@
 	}
 	
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	
 	.backcatalogue img {
@@ -87,6 +118,7 @@
 	
 }
 @media only screen and (min-width: 1200px) {
+  
 	.backcatalogue img {
 		width: 40%;
 		margin-right: 14px;
@@ -97,8 +129,10 @@
 		width: 100%;
 	}
 	
-	.backcatalogue .btn {
-		display: none;
-	}
-	
+}
+
+.fullwidth {
+  display:inline-block;
+  height:100%;
+  width:100%;
 }
